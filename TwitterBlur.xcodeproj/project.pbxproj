@@ -19,6 +19,17 @@
 		79FFB88719B38F22007B12CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FFB86F19B38F22007B12CC /* UIKit.framework */; };
 		79FFB88F19B38F22007B12CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB88D19B38F22007B12CC /* InfoPlist.strings */; };
 		79FFB89119B38F22007B12CC /* TwitterBlurTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FFB89019B38F22007B12CC /* TwitterBlurTests.m */; };
+		79FFB89C19B38F45007B12CC /* TwitterBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FFB89B19B38F45007B12CC /* TwitterBlurViewController.m */; };
+		79FFB89E19B390A2007B12CC /* 207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB89D19B390A2007B12CC /* 207.jpg */; };
+		79FFB89F19B390A2007B12CC /* 207.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB89D19B390A2007B12CC /* 207.jpg */; };
+		79FFB8A119B3929E007B12CC /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB8A019B3929E007B12CC /* koala.jpg */; };
+		79FFB8A219B3929E007B12CC /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB8A019B3929E007B12CC /* koala.jpg */; };
+		79FFB8A419B39338007B12CC /* 20140807081131763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB8A319B39338007B12CC /* 20140807081131763.jpg */; };
+		79FFB8A519B39338007B12CC /* 20140807081131763.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79FFB8A319B39338007B12CC /* 20140807081131763.jpg */; };
+		79FFB8AB19B3937D007B12CC /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FFB8A819B3937D007B12CC /* UIImage+ImageEffects.m */; };
+		79FFB8AC19B3937D007B12CC /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FFB8A819B3937D007B12CC /* UIImage+ImageEffects.m */; };
+		79FFB8AD19B3937D007B12CC /* UIWindow+KLSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FFB8AA19B3937D007B12CC /* UIWindow+KLSnapShot.m */; };
+		79FFB8AE19B3937D007B12CC /* UIWindow+KLSnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FFB8AA19B3937D007B12CC /* UIWindow+KLSnapShot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,15 @@
 		79FFB88C19B38F22007B12CC /* TwitterBlurTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterBlurTests-Info.plist"; sourceTree = "<group>"; };
 		79FFB88E19B38F22007B12CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79FFB89019B38F22007B12CC /* TwitterBlurTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterBlurTests.m; sourceTree = "<group>"; };
+		79FFB89A19B38F45007B12CC /* TwitterBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterBlurViewController.h; sourceTree = "<group>"; };
+		79FFB89B19B38F45007B12CC /* TwitterBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterBlurViewController.m; sourceTree = "<group>"; };
+		79FFB89D19B390A2007B12CC /* 207.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 207.jpg; sourceTree = "<group>"; };
+		79FFB8A019B3929E007B12CC /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koala.jpg; sourceTree = "<group>"; };
+		79FFB8A319B39338007B12CC /* 20140807081131763.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20140807081131763.jpg; sourceTree = "<group>"; };
+		79FFB8A719B3937D007B12CC /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		79FFB8A819B3937D007B12CC /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		79FFB8A919B3937D007B12CC /* UIWindow+KLSnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+KLSnapShot.h"; sourceTree = "<group>"; };
+		79FFB8AA19B3937D007B12CC /* UIWindow+KLSnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+KLSnapShot.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				79FFB87119B38F22007B12CC /* TwitterBlur */,
+				79FFB87219B38F22007B12CC /* Supporting Files */,
 				79FFB88A19B38F22007B12CC /* TwitterBlurTests */,
 				79FFB86A19B38F22007B12CC /* Frameworks */,
 				79FFB86919B38F22007B12CC /* Products */,
@@ -107,10 +128,15 @@
 		79FFB87119B38F22007B12CC /* TwitterBlur */ = {
 			isa = PBXGroup;
 			children = (
+				79FFB8A619B3937D007B12CC /* ImageEffect */,
+				79FFB8A319B39338007B12CC /* 20140807081131763.jpg */,
+				79FFB8A019B3929E007B12CC /* koala.jpg */,
+				79FFB89D19B390A2007B12CC /* 207.jpg */,
 				79FFB87A19B38F22007B12CC /* AppDelegate.h */,
 				79FFB87B19B38F22007B12CC /* AppDelegate.m */,
 				79FFB87D19B38F22007B12CC /* Images.xcassets */,
-				79FFB87219B38F22007B12CC /* Supporting Files */,
+				79FFB89A19B38F45007B12CC /* TwitterBlurViewController.h */,
+				79FFB89B19B38F45007B12CC /* TwitterBlurViewController.m */,
 			);
 			path = TwitterBlur;
 			sourceTree = "<group>";
@@ -124,6 +150,7 @@
 				79FFB87919B38F22007B12CC /* TwitterBlur-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = TwitterBlur;
 			sourceTree = "<group>";
 		};
 		79FFB88A19B38F22007B12CC /* TwitterBlurTests */ = {
@@ -142,6 +169,17 @@
 				79FFB88D19B38F22007B12CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79FFB8A619B3937D007B12CC /* ImageEffect */ = {
+			isa = PBXGroup;
+			children = (
+				79FFB8A719B3937D007B12CC /* UIImage+ImageEffects.h */,
+				79FFB8A819B3937D007B12CC /* UIImage+ImageEffects.m */,
+				79FFB8A919B3937D007B12CC /* UIWindow+KLSnapShot.h */,
+				79FFB8AA19B3937D007B12CC /* UIWindow+KLSnapShot.m */,
+			);
+			path = ImageEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FFB8A419B39338007B12CC /* 20140807081131763.jpg in Resources */,
+				79FFB89E19B390A2007B12CC /* 207.jpg in Resources */,
+				79FFB8A119B3929E007B12CC /* koala.jpg in Resources */,
 				79FFB87619B38F22007B12CC /* InfoPlist.strings in Resources */,
 				79FFB87E19B38F22007B12CC /* Images.xcassets in Resources */,
 			);
@@ -228,7 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FFB8A519B39338007B12CC /* 20140807081131763.jpg in Resources */,
 				79FFB88F19B38F22007B12CC /* InfoPlist.strings in Resources */,
+				79FFB8A219B3929E007B12CC /* koala.jpg in Resources */,
+				79FFB89F19B390A2007B12CC /* 207.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FFB8AB19B3937D007B12CC /* UIImage+ImageEffects.m in Sources */,
+				79FFB89C19B38F45007B12CC /* TwitterBlurViewController.m in Sources */,
+				79FFB8AD19B3937D007B12CC /* UIWindow+KLSnapShot.m in Sources */,
 				79FFB87C19B38F22007B12CC /* AppDelegate.m in Sources */,
 				79FFB87819B38F22007B12CC /* main.m in Sources */,
 			);
@@ -248,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FFB8AC19B3937D007B12CC /* UIImage+ImageEffects.m in Sources */,
 				79FFB89119B38F22007B12CC /* TwitterBlurTests.m in Sources */,
+				79FFB8AE19B3937D007B12CC /* UIWindow+KLSnapShot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
